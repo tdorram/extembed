@@ -1,0 +1,70 @@
+/* Stylesheet for external embedded css demo by Taylor 2024 */
+
+
+*{
+margin: 0;
+padding: 0;
+border: 0; 
+}
+
+body{
+background-color: #d3d3d3;
+}
+
+.pagebox{
+width: 70%;
+margin: auto;
+background-color: #ffffff;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+h1{
+font-size: 60px;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
+}
+
+li{
+float: left;
+}
+
+li a{
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+li a:hover:not(.active){
+background-color: #111111;
+}
+
+.active{
+background-color: #e1ad01;
+}
+
+.alignright{
+float: right;
+}
+
+h2{
+color: #e1ad01;
+}
+
+footer{
+text-align: center;
+font-style: italic;
+margin-top: auto;
+padding: 50px 0;
+}
